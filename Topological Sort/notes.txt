@@ -1,3 +1,9 @@
- basially works on directed ggraph 
- it is linear ordering of vertices such that if there is an edge between u and v then u appears before v
- 
+ 1. basially works on directed ggraph 
+ 2. it is linear ordering of vertices such that if there is an edge between u and v then u appears before v
+ 3. it should be an acyclic graph
+ So, To find the Topological sorting for a graph, we just have to find in-degrees of each vertex and order the nodes from least in-degree to the highest.
+Topological Sorting for a graph is not possible if the graph is not a DAG.
+2 Methods to solve this-
+
+Using DFS Based Algorithm
+Using Kahn's BFS Based Algorithm
